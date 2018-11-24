@@ -1,0 +1,21 @@
+name: test-maxiberta-1
+version: git
+summary: Scrapy, a fast high-level web crawling & scraping framework for Python
+description: >
+  Scrapy is a fast high-level web crawling and web scraping framework, 
+  used to crawl websites and extract structured data from their pages. 
+  It can be used for a wide range of purposes, from data mining to 
+  monitoring and automated testing.
+
+grade: stable
+confinement: strict
+base: core18
+
+apps:
+  scrapy:
+    command: bin/scrapy
+
+parts:
+  scrapy:
+    plugin: python
+    source: .
