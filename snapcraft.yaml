@@ -1,4 +1,4 @@
-name: test-maxiberta-2
+name: scrapy-maxiberta
 version: git
 summary: Scrapy, a fast high-level web crawling & scraping framework for Python
 description: >
